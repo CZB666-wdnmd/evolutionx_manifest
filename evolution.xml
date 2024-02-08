@@ -53,7 +53,6 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="evo" />
-  <project path="frameworks/base" name="frameworks_base" remote="evo" />
   <!--<project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="evo" />-->
   <project path="frameworks/native" name="frameworks_native" remote="evo" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="evo" />
@@ -87,7 +86,6 @@
   <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,sdm660" remote="evo" />
   <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,sdm660" remote="evo" />
   <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,sdm660" remote="evo" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo" />
 
   <!-- Packages (Apps) repos -->
   <project path="packages/apps/EvoEgg" name="packages_apps_EvoEgg" remote="evo" />
@@ -104,7 +102,6 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="evo" />
   <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="evo" />-->
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="evo" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="evo" />
   <project path="packages/apps/ViMusic" name="packages_apps_ViMusic" remote="evo" />
   <!--<project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="evo" />-->
 

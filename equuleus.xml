@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="equuleus"
+          fetch="https://github.com/CZB666-wdnmd/"
+		  revision="udc" />
+
+  <project path="device/xiaomi/equuleus" name="android_device_xiaomi_equuleus" clone-depth="1" remote="equuleus" />
+  <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" clone-depth="1" remote="equuleus" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" clone-depth="1" remote="equuleus" revision="udc" />
+  <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" clone-depth="1" remote="equuleus" />
+  <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" clone-depth="1" remote="equuleus" revision="main" />
+  <project path="vendor/xiaomi/equuleus" name="vendor_xiaomi_equuleus" clone-depth="1" remote="equuleus" revision="main" />
+  <project path="frameworks/base" name="evox_frameworks_base" clone-depth="1" remote="equuleus" revision="udc" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" clone-depth="1" remote="equuleus" revision="udc" />
+
+</manifest>
