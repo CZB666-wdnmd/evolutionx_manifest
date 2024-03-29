@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="venus"
+          fetch="https://github.com/CZB666-wdnmd/"
+		  revision="udc" />
+
+  <project path="device/xiaomi/venus" name="device_xiaomi_venus" clone-depth="1" remote="venus" />
+  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" clone-depth="1" remote="venus" />
+  <project path="kernel/xiaomi/sm8350" name="kernel_xiaomi_sm8350" clone-depth="1" remote="venus" revision="udc" />
+  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" clone-depth="1" remote="evo-devices" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" clone-depth="1" remote="venus" revision="udc" />
+  <project path="vendor/xiaomi/venus-miuicamera" name="shaazice/vendor_xiaomi_venus-miuicamera" clone-depth="1" remote="gitlab" revision="udc" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" clone-depth="1" remote="evo-devices" revision="udc" />
+
+</manifest>

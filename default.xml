@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
+           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-14.0.0_r29"
            remote="aosp"
@@ -1366,4 +1366,5 @@
   <!-- LineageOS -->
   <include name="lineage.xml" />
   <include name="pixel.xml" />
+  <include name="venus.xml" />
 </manifest>
