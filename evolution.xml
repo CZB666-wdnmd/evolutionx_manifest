@@ -21,7 +21,7 @@
   <!-- GitHub (Evolution X) -->
   <remote  name="evo-2"
            fetch="https://github.com/Evolution-X"
-           revision="refs/heads/uqpr2" />
+           revision="refs/heads/u" />
 
   <!-- GitHub (Evolution X Devices) -->
   <remote  name="evo-devices"
@@ -36,12 +36,12 @@
   <!-- GitHub (Evolution X) -->
   <remote  name="evo-pixel"
            fetch="https://github.com/Evolution-X"
-           revision="refs/heads/udc-p" />
+           revision="refs/heads/u-p" />
 
   <!-- GitHub (Evolution X) -->
   <remote  name="evo-jemalloc"
            fetch="https://github.com/Evolution-X"
-           revision="refs/heads/udc-j" />
+           revision="refs/heads/u-j" />
 
   <!-- Bitbucket (Evolution X) -->
   <remote  name="evo-bb"
