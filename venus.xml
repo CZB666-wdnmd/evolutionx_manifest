@@ -12,5 +12,11 @@
   <project path="packages/apps/Updates" name="packages_apps_Updates" clone-depth="1" remote="venus" revision="udc" />
   <project path="vendor/xiaomi/venus-miuicamera" name="shaazice/vendor_xiaomi_venus-miuicamera" clone-depth="1" remote="gitlab" revision="udc" />
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" clone-depth="1" remote="evo-devices" revision="udc" />
-
+  
+  <project path="external" name="liblhdc" clone-depth="1" remote="venus" revision="main" />
+  <project path="bionic" name="evox_bionic" remote="venus" clone-depth="1" revision="u" />
+  <project path="frameworks/base" name="evox_frameworks_base" remote="venus" clone-depth="1" revision="u" />
+  <project path="hardware/interfaces" name="evox_hardware_interfaces" remote="venus" clone-depth="1" revision="u" />
+  <project path="packages/apps/Settings" name="evox_packages_apps_Settings" remote="venus" clone-depth="1" revision="u" />
+  <project path="packages/modules/Bluetooth" name="evox_packages_modules_Bluetooth" remote="venus" clone-depth="1" revision="u" />
 </manifest>
