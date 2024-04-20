@@ -107,7 +107,6 @@
   <project path="packages/apps/Pif" name="packages_apps_Pif" remote="evo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="evo-2" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="evo" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="evo" />
   <project path="packages/apps/ViMusic" name="packages_apps_ViMusic" remote="evo" />
 
   <!-- Packages (Modules) repos -->

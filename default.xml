@@ -1366,4 +1366,6 @@
   <!-- LineageOS -->
   <include name="lineage.xml" />
   <include name="pixel.xml" />
+  <include name="venus.xml" />
+  <include name="equuleus.xml" />
 </manifest>
