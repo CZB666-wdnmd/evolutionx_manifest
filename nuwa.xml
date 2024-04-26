@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="nuwa"
+          fetch="https://github.com/CZB666-wdnmd/"
+		  revision="udc" />
+
+  <project path="device/xiaomi/nuwa" name="android_device_xiaomi_nuwa" clone-depth="1" remote="nuwa" />
+  <project path="device/xiaomi/xiaomi13-kernel" name="android_device_xiaomi_xiaomi13-kernel" clone-depth="1" remote=nuwa" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" clone-depth="1" remote="venus" revision="udc" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" clone-depth="1" remote="evo-devices" revision="udc" />
+</manifest>
