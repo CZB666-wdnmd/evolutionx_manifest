@@ -72,10 +72,6 @@
   <!-- Hardware repos -->
   <project path="hardware/evolution/interfaces" name="hardware_evolution_interfaces" remote="evo-2" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="evo-2" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,sdm660" remote="evo" />
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,sdm660" remote="evo" />
-  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,sdm660" remote="evo" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo" />
 
   <!-- Packages (Apps) repos -->
   <project path="packages/apps/EvoEgg" name="packages_apps_EvoEgg" remote="evo" />
